@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+//import SupportPage from './landing_page/support/SupportPage';
+//import AboutPage from './landing_page/about/AboutPage';
+//import PricingPage from './landing_page/pricing/PricingPage';
+//import ProductPage from './landing_page/products/ProductPage';
+import HomePage from './landing_page/home/HomePage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div>
-      <h1>Hello!</h1>
-    </div>
+      <HomePage/>
+    
   </React.StrictMode>
 );
 
